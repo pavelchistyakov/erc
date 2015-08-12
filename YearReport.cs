@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,8 +14,8 @@ namespace ERC
     public partial class YearReportForm : Form
     {
         Word._Application oWord;
-        private const string TemplatePath = "C:\\MenshikovaLab\\Templates\\";
-        private const string SavedDocumentsPath = "C:\\MenshikovaLab\\Saved Documents\\";
+        private const string TemplatePath = "C:\\Templates\\";
+        private const string SavedDocumentsPath = "C:\\Saved Documents\\";
         public YearReportForm()
         {
             InitializeComponent();
