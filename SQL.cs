@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ namespace ERC
 {
     class SQL
     {
-        static string sConn = "Server=BANDICOOTN76VZ\\ADK;Database=UtilitiesAccounting_DB;Trusted_Connection=True;";
+        static string sConn = "Server=MYPC\\ADK;Database=UtilitiesAccounting_DB;Trusted_Connection=True;";
         static SqlConnection conn;
         static SQL()
         {
